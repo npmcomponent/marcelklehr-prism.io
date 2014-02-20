@@ -1,17 +1,8 @@
 {
-  "name": "prism.io"
-, "version": "0.0.0"
-, "dependencies": {
-    "emitter": "component/emitter"
-  , "socket.io": "*"
-  , "changesets": "*"
+  "name": "marcelklehr-prism.io",
+  "main": "client.js",
+  "dependencies": {
+    "marcelklehr-changesets": "git://github.com/npmcomponent/marcelklehr-changesets.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   }
-, "description": "Share and edit documents in real-time. Lightweight and modular alternative to shareJS."
-, "keywords": ["share", "etherpad", "concurrent", "collaborative", "wave", "edit", "editor", "document", "contenteditable", "real-time"]
-, "author": "marcelklehr <mklehr@gmx.net> (Marcel Klehr)"
-, "repository": {
-    "type": "git"
-  , "url": "https://github.com/marcelklehr/prism.io.git"
-  }
-, "license": "MIT" 
 }

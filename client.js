@@ -1,6 +1,6 @@
 ﻿var CollabClient = require('./lib/CollabClient')
   , Connection = require('./lib/Connection')
-  , Emitter = require('emitter')
+  , Emitter = require('component-emitter')
 
 exports.HtmlAdapter = require('./lib/HtmlAdapter')
 exports.TextinputAdapter = require('./lib/TextinputAdapter')
